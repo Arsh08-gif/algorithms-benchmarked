@@ -102,7 +102,7 @@ def main():
     # print(f'ans : {max_res}')
     # print(f'Time taken by algorithm : {end - start : .6f} sec')
     
-    # METRICS
+    # CHARTS
     
     sizes = [3, 5, 10, 15, 20, 25, 30]
     recursive_times = []
@@ -127,7 +127,7 @@ def main():
         sol.knapsack_tabulation(W,val,wt)
         tab_times.append(time.time() - start)
     
-    # TIME COMPLEXITY METRIC
+    # TIME COMPLEXITY CHARTS
     plt.figure(figsize=(10, 6))
     offset = 0.2
     memo_display = [t + offset for t in memo_times]
@@ -146,7 +146,7 @@ def main():
     plt.close()
     print("Time chart done, starting space chart...")  # add this
         
-    # SPACE COMPARISON METRIC
+    # SPACE COMPARISON CHARTS
     n_values = range(1, 10001)  # number of items
     W = 1000  # fixed knapsack capacity
     recursive       = [n for n in n_values]              # O(n) stack

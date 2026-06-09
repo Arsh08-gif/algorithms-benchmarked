@@ -8,10 +8,7 @@ Each algorithm is implemented in multiple ways (brute force → optimized) with:
 - Charts generated with matplotlib
 
 ## Algorithms
-
-| Algorithm | Status |
-|---|---|
-| 0/1 Knapsack | 🔄 |
+0/1 Knapsack 
 
 ## Structure
 
